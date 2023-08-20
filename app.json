@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Art Book",
+    "slug": "gigs-repository-app",
+    "description": "this is a prototipe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LogoDarkOutCircle.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/LogoDarkOutCircle.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.danielgz405.gigsrepositoryapp"
+    },
+    "web": {
+      "favicon": "./assets/LogoDarkOutCircle.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ac56c2a3-3739-4652-a67e-cef3b606916d"
+      }
+    }
+  }
+}
