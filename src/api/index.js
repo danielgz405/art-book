@@ -1,18 +1,11 @@
-const API = 'https://gisgs.azurewebsites.net';
-
+const API = 'http://192.168.0.5:5050';
 
 export const endPoints = {
-    auth: {
-        login: `${API}/login`,
-    },
-    users: {
-        profile: (userId) => `${API}/profile/${userId}`,
-        createUser: `${API}/signup`,
-    },
-    events: {
-        InsertAutomobile: `${API}/automobile`,
-        InsertVisitor: `${API}/visitor`,
-        InsertPackage: `${API}/package`,
-        GetEvents: `${API}/events/list`,
-    }
-}
+  auth: {
+    login: `${API}/login`,
+  },
+  users: {
+    profile: (userId) => `${API}/profile/${userId}`,
+    createUser: `${API}/signup`,
+  },
+};
