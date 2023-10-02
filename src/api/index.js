@@ -1,4 +1,4 @@
-const API = 'http://localhost:5050';
+const API = 'http://192.168.0.5:5050';
 
 export const endPoints = {
   auth: {
